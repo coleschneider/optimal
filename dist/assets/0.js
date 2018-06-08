@@ -1,9 +1,9 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "./src/client/pages/pageNotFound/index.js":
-/*!************************************************!*\
-  !*** ./src/client/pages/pageNotFound/index.js ***!
-  \************************************************/
+/***/ "./src/client/pages/home/index.js":
+/*!****************************************!*\
+  !*** ./src/client/pages/home/index.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24,16 +24,16 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var PageNotFound = function (_React$Component) {
-  _inherits(PageNotFound, _React$Component);
+var Home = function (_React$Component) {
+  _inherits(Home, _React$Component);
 
-  function PageNotFound() {
-    _classCallCheck(this, PageNotFound);
+  function Home() {
+    _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, (PageNotFound.__proto__ || Object.getPrototypeOf(PageNotFound)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
   }
 
-  _createClass(PageNotFound, [{
+  _createClass(Home, [{
     key: 'render',
 
     // #region lifecycle
@@ -44,7 +44,16 @@ var PageNotFound = function (_React$Component) {
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
           'h1',
           null,
-          'Error 404'
+          'Home Page'
+        ),
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          'p',
+          null,
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+            react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"],
+            { className: 'btn btn-success btn-lg', to: '/about' },
+            'About'
+          )
         )
       );
     }
@@ -52,12 +61,12 @@ var PageNotFound = function (_React$Component) {
 
   }]);
 
-  return PageNotFound;
+  return Home;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (PageNotFound);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ })
 
 }]);
-//# sourceMappingURL=2.js.map
+//# sourceMappingURL=0.js.map
